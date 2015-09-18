@@ -1,0 +1,4 @@
+/* Global override */
+html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
+    border:1px solid black;
+}
