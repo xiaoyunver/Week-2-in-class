@@ -1,4 +1,50 @@
 /* Global override */
 html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
-    border:1px solid black;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+/* This section is for fonts and colors */
+body{
+    background: rgb(250,250,250);
+    font-family:georgia, serif;
+}
+h1,h2,h3,h4{
+    font-family:"roboto condensed", sans-serif;
+    margin-bottom:10px;
+}
+.list-heading{
+    font-weight:normal;
+    border-bottom:2px solid black;
+    padding:0 0 10px 0;
+}
+.list li{
+    border-bottom:1px solid rgb(180,180,180);
+    padding:10px 0 10px 0;
+    margin:0 0 10px 0;
+}
+
+/*Layout */
+.container{
+    width:80%;
+    margin:auto;
+}
+.lists{
+    width:63.6666%;
+    margin:0 3% 0 0;
+    background:white;
+    float:left;
+    padding: 10px 20px;
+    box-sizing:border-box;
+}
+.description{
+    width:33.3333%;
+    background:white;
+    float:left;
+    padding: 10px 20px;
+    box-sizing:border-box;
+}
+.lists>.list{
+    width:50%;
+    float:left;
 }

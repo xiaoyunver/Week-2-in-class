@@ -8,16 +8,29 @@ body{
 }
 #red{
     background:red;
+    position:relative;
+    width:100%;
+    z-index:9999;
 }
 #green{
     background:green;
+    clear:both;
+}
+#cyan{
+    background:cyan;
+    width:50%;
+    float:left;
 }
 #blue{
     background:blue;
+    width:30%;
+    float:left;
 }
 #parent{
     border:5px solid black;
     position:relative;
+    width:40%;
+    float:left;
 }
 #purple{
     background:purple;
